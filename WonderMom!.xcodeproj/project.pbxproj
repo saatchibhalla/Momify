@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B798420C1FAD68EF00994DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798420B1FAD68EF00994DA4 /* AppDelegate.swift */; };
+		B798420E1FAD68EF00994DA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798420D1FAD68EF00994DA4 /* ViewController.swift */; };
+		B79842111FAD68EF00994DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B798420F1FAD68EF00994DA4 /* Main.storyboard */; };
+		B79842131FAD68EF00994DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79842121FAD68EF00994DA4 /* Assets.xcassets */; };
+		B79842161FAD68EF00994DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79842141FAD68EF00994DA4 /* LaunchScreen.storyboard */; };
+		B79842211FAD68EF00994DA4 /* WonderMom_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79842201FAD68EF00994DA4 /* WonderMom_Tests.swift */; };
+		B798422C1FAD68EF00994DA4 /* WonderMom_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798422B1FAD68EF00994DA4 /* WonderMom_UITests.swift */; };
+		B798423C1FAD7BCD00994DA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798423B1FAD7BCD00994DA4 /* LoginViewController.swift */; };
+		B79842481FADFA8E00994DA4 /* Onboarding1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79842471FADFA8E00994DA4 /* Onboarding1ViewController.swift */; };
+		B798424A1FADFEEB00994DA4 /* Onboarding2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79842491FADFEEB00994DA4 /* Onboarding2ViewController.swift */; };
+		B7C460111FAE526600B68C37 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C460101FAE526600B68C37 /* ExpandableCell.swift */; };
+		B7E5FA621FAE1DCC00C03A6F /* Nunito in Resources */ = {isa = PBXBuildFile; fileRef = B7E5FA611FAE1DCC00C03A6F /* Nunito */; };
+		B7E5FA6A1FAE1E5D00C03A6F /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7E5FA691FAE1E5C00C03A6F /* Nunito-SemiBold.ttf */; };
+		B7E5FA6D1FAE1E7B00C03A6F /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7E5FA6B1FAE1E6500C03A6F /* Nunito-Regular.ttf */; };
+		B7E5FA6E1FAE1E7E00C03A6F /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7E5FA6C1FAE1E7400C03A6F /* Nunito-Bold.ttf */; };
+		B7E5FA701FAE290200C03A6F /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E5FA6F1FAE290200C03A6F /* QuizViewController.swift */; };
+		B7FED8871FAE3D5A00AB2393 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FED8861FAE3D5A00AB2393 /* DashboardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B798421D1FAD68EF00994DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B79842001FAD68EF00994DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B79842071FAD68EF00994DA4;
+			remoteInfo = "WonderMom!";
+		};
+		B79842281FAD68EF00994DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B79842001FAD68EF00994DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B79842071FAD68EF00994DA4;
+			remoteInfo = "WonderMom!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B79842081FAD68EF00994DA4 /* WonderMom!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WonderMom!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B798420B1FAD68EF00994DA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B798420D1FAD68EF00994DA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B79842101FAD68EF00994DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B79842121FAD68EF00994DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B79842151FAD68EF00994DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B79842171FAD68EF00994DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B798421C1FAD68EF00994DA4 /* WonderMom!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WonderMom!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79842201FAD68EF00994DA4 /* WonderMom_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderMom_Tests.swift; sourceTree = "<group>"; };
+		B79842221FAD68EF00994DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79842271FAD68EF00994DA4 /* WonderMom!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WonderMom!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B798422B1FAD68EF00994DA4 /* WonderMom_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderMom_UITests.swift; sourceTree = "<group>"; };
+		B798422D1FAD68EF00994DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B798423B1FAD7BCD00994DA4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B79842471FADFA8E00994DA4 /* Onboarding1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1ViewController.swift; sourceTree = "<group>"; };
+		B79842491FADFEEB00994DA4 /* Onboarding2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding2ViewController.swift; sourceTree = "<group>"; };
+		B7C460101FAE526600B68C37 /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
+		B7E5FA611FAE1DCC00C03A6F /* Nunito */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Nunito; sourceTree = SOURCE_ROOT; };
+		B7E5FA691FAE1E5C00C03A6F /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		B7E5FA6B1FAE1E6500C03A6F /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		B7E5FA6C1FAE1E7400C03A6F /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		B7E5FA6F1FAE290200C03A6F /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		B7FED8861FAE3D5A00AB2393 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B79842051FAD68EF00994DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79842191FAD68EF00994DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79842241FAD68EF00994DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B79841FF1FAD68EF00994DA4 = {
+			isa = PBXGroup;
+			children = (
+				B7E5FA6C1FAE1E7400C03A6F /* Nunito-Bold.ttf */,
+				B7E5FA6B1FAE1E6500C03A6F /* Nunito-Regular.ttf */,
+				B7E5FA691FAE1E5C00C03A6F /* Nunito-SemiBold.ttf */,
+				B798420A1FAD68EF00994DA4 /* WonderMom! */,
+				B798421F1FAD68EF00994DA4 /* WonderMom!Tests */,
+				B798422A1FAD68EF00994DA4 /* WonderMom!UITests */,
+				B79842091FAD68EF00994DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B79842091FAD68EF00994DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B79842081FAD68EF00994DA4 /* WonderMom!.app */,
+				B798421C1FAD68EF00994DA4 /* WonderMom!Tests.xctest */,
+				B79842271FAD68EF00994DA4 /* WonderMom!UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B798420A1FAD68EF00994DA4 /* WonderMom! */ = {
+			isa = PBXGroup;
+			children = (
+				B7E5FA611FAE1DCC00C03A6F /* Nunito */,
+				B79842471FADFA8E00994DA4 /* Onboarding1ViewController.swift */,
+				B7E5FA6F1FAE290200C03A6F /* QuizViewController.swift */,
+				B79842491FADFEEB00994DA4 /* Onboarding2ViewController.swift */,
+				B798423B1FAD7BCD00994DA4 /* LoginViewController.swift */,
+				B798420B1FAD68EF00994DA4 /* AppDelegate.swift */,
+				B798420D1FAD68EF00994DA4 /* ViewController.swift */,
+				B798420F1FAD68EF00994DA4 /* Main.storyboard */,
+				B79842121FAD68EF00994DA4 /* Assets.xcassets */,
+				B7C460101FAE526600B68C37 /* ExpandableCell.swift */,
+				B7FED8861FAE3D5A00AB2393 /* DashboardViewController.swift */,
+				B79842141FAD68EF00994DA4 /* LaunchScreen.storyboard */,
+				B79842171FAD68EF00994DA4 /* Info.plist */,
+			);
+			path = "WonderMom!";
+			sourceTree = "<group>";
+		};
+		B798421F1FAD68EF00994DA4 /* WonderMom!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B79842201FAD68EF00994DA4 /* WonderMom_Tests.swift */,
+				B79842221FAD68EF00994DA4 /* Info.plist */,
+			);
+			path = "WonderMom!Tests";
+			sourceTree = "<group>";
+		};
+		B798422A1FAD68EF00994DA4 /* WonderMom!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B798422B1FAD68EF00994DA4 /* WonderMom_UITests.swift */,
+				B798422D1FAD68EF00994DA4 /* Info.plist */,
+			);
+			path = "WonderMom!UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B79842071FAD68EF00994DA4 /* WonderMom! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79842301FAD68EF00994DA4 /* Build configuration list for PBXNativeTarget "WonderMom!" */;
+			buildPhases = (
+				B79842041FAD68EF00994DA4 /* Sources */,
+				B79842051FAD68EF00994DA4 /* Frameworks */,
+				B79842061FAD68EF00994DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WonderMom!";
+			productName = "WonderMom!";
+			productReference = B79842081FAD68EF00994DA4 /* WonderMom!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B798421B1FAD68EF00994DA4 /* WonderMom!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79842331FAD68EF00994DA4 /* Build configuration list for PBXNativeTarget "WonderMom!Tests" */;
+			buildPhases = (
+				B79842181FAD68EF00994DA4 /* Sources */,
+				B79842191FAD68EF00994DA4 /* Frameworks */,
+				B798421A1FAD68EF00994DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B798421E1FAD68EF00994DA4 /* PBXTargetDependency */,
+			);
+			name = "WonderMom!Tests";
+			productName = "WonderMom!Tests";
+			productReference = B798421C1FAD68EF00994DA4 /* WonderMom!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B79842261FAD68EF00994DA4 /* WonderMom!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79842361FAD68EF00994DA4 /* Build configuration list for PBXNativeTarget "WonderMom!UITests" */;
+			buildPhases = (
+				B79842231FAD68EF00994DA4 /* Sources */,
+				B79842241FAD68EF00994DA4 /* Frameworks */,
+				B79842251FAD68EF00994DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B79842291FAD68EF00994DA4 /* PBXTargetDependency */,
+			);
+			name = "WonderMom!UITests";
+			productName = "WonderMom!UITests";
+			productReference = B79842271FAD68EF00994DA4 /* WonderMom!UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B79842001FAD68EF00994DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Saatchi Bhalla";
+				TargetAttributes = {
+					B79842071FAD68EF00994DA4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					B798421B1FAD68EF00994DA4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+						TestTargetID = B79842071FAD68EF00994DA4;
+					};
+					B79842261FAD68EF00994DA4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B79842071FAD68EF00994DA4;
+					};
+				};
+			};
+			buildConfigurationList = B79842031FAD68EF00994DA4 /* Build configuration list for PBXProject "WonderMom!" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B79841FF1FAD68EF00994DA4;
+			productRefGroup = B79842091FAD68EF00994DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B79842071FAD68EF00994DA4 /* WonderMom! */,
+				B798421B1FAD68EF00994DA4 /* WonderMom!Tests */,
+				B79842261FAD68EF00994DA4 /* WonderMom!UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B79842061FAD68EF00994DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E5FA6E1FAE1E7E00C03A6F /* Nunito-Bold.ttf in Resources */,
+				B7E5FA6D1FAE1E7B00C03A6F /* Nunito-Regular.ttf in Resources */,
+				B79842161FAD68EF00994DA4 /* LaunchScreen.storyboard in Resources */,
+				B79842131FAD68EF00994DA4 /* Assets.xcassets in Resources */,
+				B79842111FAD68EF00994DA4 /* Main.storyboard in Resources */,
+				B7E5FA6A1FAE1E5D00C03A6F /* Nunito-SemiBold.ttf in Resources */,
+				B7E5FA621FAE1DCC00C03A6F /* Nunito in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B798421A1FAD68EF00994DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79842251FAD68EF00994DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B79842041FAD68EF00994DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B798423C1FAD7BCD00994DA4 /* LoginViewController.swift in Sources */,
+				B7FED8871FAE3D5A00AB2393 /* DashboardViewController.swift in Sources */,
+				B79842481FADFA8E00994DA4 /* Onboarding1ViewController.swift in Sources */,
+				B7C460111FAE526600B68C37 /* ExpandableCell.swift in Sources */,
+				B798420E1FAD68EF00994DA4 /* ViewController.swift in Sources */,
+				B7E5FA701FAE290200C03A6F /* QuizViewController.swift in Sources */,
+				B798424A1FADFEEB00994DA4 /* Onboarding2ViewController.swift in Sources */,
+				B798420C1FAD68EF00994DA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79842181FAD68EF00994DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79842211FAD68EF00994DA4 /* WonderMom_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79842231FAD68EF00994DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B798422C1FAD68EF00994DA4 /* WonderMom_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B798421E1FAD68EF00994DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B79842071FAD68EF00994DA4 /* WonderMom! */;
+			targetProxy = B798421D1FAD68EF00994DA4 /* PBXContainerItemProxy */;
+		};
+		B79842291FAD68EF00994DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B79842071FAD68EF00994DA4 /* WonderMom! */;
+			targetProxy = B79842281FAD68EF00994DA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B798420F1FAD68EF00994DA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79842101FAD68EF00994DA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B79842141FAD68EF00994DA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79842151FAD68EF00994DA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B798422E1FAD68EF00994DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B798422F1FAD68EF00994DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B79842311FAD68EF00994DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3C22L28YAL;
+				INFOPLIST_FILE = "WonderMom!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SAKA.WonderMom-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B79842321FAD68EF00994DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Saatchi Bhalla (JL3AP2XBR7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3C22L28YAL;
+				INFOPLIST_FILE = "WonderMom!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SAKA.WonderMom-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B79842341FAD68EF00994DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3C22L28YAL;
+				INFOPLIST_FILE = "WonderMom!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SAKA.WonderMom-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WonderMom!.app/WonderMom!";
+			};
+			name = Debug;
+		};
+		B79842351FAD68EF00994DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3C22L28YAL;
+				INFOPLIST_FILE = "WonderMom!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SAKA.WonderMom-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WonderMom!.app/WonderMom!";
+			};
+			name = Release;
+		};
+		B79842371FAD68EF00994DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3C22L28YAL;
+				INFOPLIST_FILE = "WonderMom!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SAKA.WonderMom-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WonderMom!";
+			};
+			name = Debug;
+		};
+		B79842381FAD68EF00994DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3C22L28YAL;
+				INFOPLIST_FILE = "WonderMom!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SAKA.WonderMom-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WonderMom!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B79842031FAD68EF00994DA4 /* Build configuration list for PBXProject "WonderMom!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B798422E1FAD68EF00994DA4 /* Debug */,
+				B798422F1FAD68EF00994DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79842301FAD68EF00994DA4 /* Build configuration list for PBXNativeTarget "WonderMom!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79842311FAD68EF00994DA4 /* Debug */,
+				B79842321FAD68EF00994DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79842331FAD68EF00994DA4 /* Build configuration list for PBXNativeTarget "WonderMom!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79842341FAD68EF00994DA4 /* Debug */,
+				B79842351FAD68EF00994DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79842361FAD68EF00994DA4 /* Build configuration list for PBXNativeTarget "WonderMom!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79842371FAD68EF00994DA4 /* Debug */,
+				B79842381FAD68EF00994DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B79842001FAD68EF00994DA4 /* Project object */;
+}
